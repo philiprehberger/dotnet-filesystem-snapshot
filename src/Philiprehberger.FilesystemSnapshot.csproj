@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <PackageId>Philiprehberger.FilesystemSnapshot</PackageId>
-    <Version>0.1.1</Version>
+    <Version>0.1.2</Version>
     <Authors>Philip Rehberger</Authors>
     <Description>Snapshot directories and detect file changes between runs</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
