@@ -85,6 +85,12 @@ var snapshot = DirectorySnapshot.Take("/path/to/dir", options);
 | `Removed` | Files present in the older snapshot only |
 | `Modified` | Files present in both with different hashes |
 
+## Development
+
+```bash
+dotnet build src/Philiprehberger.FilesystemSnapshot.csproj --configuration Release
+```
+
 ## License
 
 MIT
