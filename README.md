@@ -1,5 +1,9 @@
 # Philiprehberger.FilesystemSnapshot
 
+[![CI](https://github.com/philiprehberger/dotnet-filesystem-snapshot/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/dotnet-filesystem-snapshot/actions/workflows/ci.yml)
+[![NuGet](https://img.shields.io/nuget/v/Philiprehberger.FilesystemSnapshot.svg)](https://www.nuget.org/packages/Philiprehberger.FilesystemSnapshot)
+[![License](https://img.shields.io/github/license/philiprehberger/dotnet-filesystem-snapshot)](LICENSE)
+
 Snapshot a directory and detect which files were added, removed, or modified between runs. Uses SHA-256 hashes for reliable change detection.
 
 ## Install
