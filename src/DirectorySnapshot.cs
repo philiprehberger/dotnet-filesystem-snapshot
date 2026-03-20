@@ -43,6 +43,11 @@ public sealed class DirectorySnapshot
     /// <summary>UTC time the snapshot was taken.</summary>
     public DateTimeOffset Timestamp { get; }
 
+    /// <summary>
+    /// Initialises a new <see cref="DirectorySnapshot"/> from pre-computed data.
+    /// </summary>
+    /// <param name="files">Relative paths mapped to their SHA-256 hex hashes.</param>
+    /// <param name="timestamp">UTC time the snapshot was taken.</param>
     [JsonConstructor]
     public DirectorySnapshot(IReadOnlyDictionary<string, string> files, DateTimeOffset timestamp)
     {
