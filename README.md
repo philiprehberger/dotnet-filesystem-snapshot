@@ -6,7 +6,7 @@
 
 Snapshot a directory and detect which files were added, removed, or modified between runs. Uses SHA-256 hashes for reliable change detection.
 
-## Install
+## Installation
 
 ```bash
 dotnet add package Philiprehberger.FilesystemSnapshot
