@@ -3,6 +3,7 @@
 [![CI](https://github.com/philiprehberger/dotnet-filesystem-snapshot/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/dotnet-filesystem-snapshot/actions/workflows/ci.yml)
 [![NuGet](https://img.shields.io/nuget/v/Philiprehberger.FilesystemSnapshot.svg)](https://www.nuget.org/packages/Philiprehberger.FilesystemSnapshot)
 [![License](https://img.shields.io/github/license/philiprehberger/dotnet-filesystem-snapshot)](LICENSE)
+[![Sponsor](https://img.shields.io/badge/sponsor-GitHub%20Sponsors-ec6cb9)](https://github.com/sponsors/philiprehberger)
 
 Snapshot directories and detect added, removed, or modified files between runs using SHA-256 hashing.
 
